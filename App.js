@@ -7,7 +7,10 @@
         <h1>I am h1 tag</h1>
         <h2>I am h2 tag</h2>
     </div>
-</div> */
+</div> 
+
+ReactElement(Object) => HTML(Browser understands)
+*/
 
 
 const heading = React.createElement("div", { id: "parent" }, [
