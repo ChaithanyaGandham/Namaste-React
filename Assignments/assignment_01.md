@@ -6,4 +6,4 @@ Emmet is a plugin or developer tool kit helps make your work faster and substant
 
 Difference between a Library and Framework ?
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
