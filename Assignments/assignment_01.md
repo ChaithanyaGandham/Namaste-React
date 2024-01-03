@@ -10,7 +10,7 @@ Libraries consist of a set of components that serve a particular purpose. wherea
 
 ![Alt text](Images/lib_vs_framework.jpg)
 ---------------------------------------------------------------------------------
-What is CDN ? Why do we use it ?
+# What is CDN ? Why do we use it ?
 
 CDN stands for - Content Delivery Network.
 
@@ -27,25 +27,28 @@ CDN link for ReactDOM:
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 ---------------------------------------------------------------------------------
 
-Why is React known as React ?
+# Why is React known as React ?
 
 React is a JavaScript library that is used to develop the user interfaces and is developed by Facebook.
 
 The name "React" aptly suits it, because, In react, we make use of the virtual DOM, which would store the state of all the components. Whenever there is a change or modification occurs in the application, reactively the changes can be observed in the web application as well. hence it is called as React.
+
 ---------------------------------------------------------------------------------
-What is cross-origin in the script tag ?
+# What is cross-origin in the script tag ?
 
 cross-origin is the attribute that sets the mode of the request to http CORS Request.
 
 CORS -> Cross Origin Resource Sharing. It is a mechanism that is used for integrating the multiple web applications. CORS defines a way for the client web applications that the code developed in one domain to be shared with the resources in the another domain.
+
 ---------------------------------------------------------------------------------
 
-What is the difference between React and ReactDOM ?
+# What is the difference between React and ReactDOM ?
 
 React focuses on the component creation and state management, while ReactDOM handles rendering and DOM interactions.
+
 ---------------------------------------------------------------------------------
 
-What is the difference between react.development.js and react.production.js file via CDN ?
+# What is the difference between react.development.js and react.production.js file via CDN ?
 
 When we run the application in the production mode, the code is minified, compressed, tree shaked and finally bundled with either webpack / Parcel in the scenes behind and we get a minified files for the production ready environment.
     1.  Minified.
@@ -61,9 +64,10 @@ whereas in the developement mode, if we run the application, we does not get a m
     3.  Several other dependencies which are not a part of devDependencies.
 
 Also the performance will be much faster in production when compared to the development mode.
+
 ---------------------------------------------------------------------------------
 
-What are async and defer ?
+# What are async and defer ?
 
 async and defer are the boolean attributes that are used in our script tags that helps us to load the external scripts efficiently into our web page.
 
