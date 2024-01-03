@@ -9,18 +9,18 @@ NPM:
 
 Parcel/Webpack are the module bundler that helps in bundling our application into a minified code that are understandable by the browsers.
 Parcel behind the scenes does a lot of work 
-    1. Minifying.
-    2. Compressing files.
-    3. Clear Code.
-    4. Building our application
-    5. Providing a server.
-    6. Tree Shaking.
-    7. Differential Bundling.
-    8. Bundling.
-    9. Optimise.
-    10. Content Hashing.
-    11. HMR ( Hot Module Replacement )
-    12. Different bundlers for Dev and Production.
+1. Minifying.
+2. Compressing files.
+3. Clear Code.
+4. Building our application
+5. Providing a server.
+6. Tree Shaking.
+7. Differential Bundling.
+8. Bundling.
+9. Optimise.
+10. Content Hashing.
+11. HMR ( Hot Module Replacement )
+12. Different bundlers for Dev and Production.
 
 We need a bundler to run our application faster.
 
@@ -118,12 +118,12 @@ These files can also be generated using the dev and prod build commands.
 # What is the difference between package.json and package-lock.json ?
 
 package.json: 
-    1.   It is the configuration file for the npm.
-    2.   It contains the dependencies and devDependencies with corresponding version numbers and project meta data.
+1.   It is the configuration file for the npm.
+2.   It contains the dependencies and devDependencies with corresponding version numbers and project meta data.
 
 package-lock.json:
-    1.   It is a lock file that keeps the exact version of the dependencies that are installed in the node-modules.
-    2.   Ensures the same versions of dependencies are installed in different environemnts like DEV and Production.
+1.   It is a lock file that keeps the exact version of the dependencies that are installed in the node-modules.
+2.   Ensures the same versions of dependencies are installed in different environemnts like DEV and Production.
 
 # Why should I not modify "package-lock.json" ?
 
