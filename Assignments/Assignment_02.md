@@ -77,28 +77,28 @@ dependencies vs devDependencies :
 # List down your favourite 5 super powers of Parcel and describe any 3 of them in your own words.
 
 Parcel Super Powers:
-    1. Caching.
-    2. Hot Module Replacement
-    3. Tree Shaking
-    4. Consistent hashing.
-    5. Differential Bundling.
+1. Caching.
+2. Hot Module Replacement
+3. Tree Shaking
+4. Consistent hashing.
+5. Differential Bundling.
 
-    a.  Consistent Hashing:
-            --> It is a distributed hashing scheme that operates independently the servers and the objects in a distributed hash circle or hash ring.
-            --> It allows servers and objects to scale without affecting the overall system.
-    
-    b.  Differential Bundling: 
-            --> It supports the older browsers.
-            --> Provides code compatibility with the older version of browsers for our application.
-                    We add the required versions of the Chrome, Firefox or other browsers under the browserslist in package.json file to make it happen.
-            --> Parcel automatically produces:
+1.  Consistent Hashing:
+1. It is a distributed hashing scheme that operates independently the servers and the objects in a distributed hash circle or hash ring.
+2. It allows servers and objects to scale without affecting the overall system.
 
-                        <script type="module"> with modern JavaScript syntax & 
-                        <script nomodule> fallback syntax for the older browsers.
-    
-    c.  Tree Shaking:
-            --> It statically analyses the imports and exports for all the modules and removes everything that is not necessary.
-            --> Even it checks for the css files and removes the unwanted class names before minifying the code.
+2.  Differential Bundling: 
+1.      It supports the older browsers.
+2.      Provides code compatibility with the older version of browsers for our application.
+3.       We add the required versions of the Chrome, Firefox or other browsers under the browserslist in package.json file to make it happen.
+4.      Parcel automatically produces:
+
+        <script type="module"> with modern JavaScript syntax & 
+        <script nomodule> fallback syntax for the older browsers.
+
+3.  Tree Shaking:
+1.      It statically analyses the imports and exports for all the modules and removes everything that is not necessary.
+2.      Even it checks for the css files and removes the unwanted class names before minifying the code.
 
 # What is .gitignore ? what should we add and not add into it ?
 
