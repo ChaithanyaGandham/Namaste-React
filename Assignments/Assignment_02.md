@@ -83,22 +83,22 @@ Parcel Super Powers:
 4. Consistent hashing.
 5. Differential Bundling.
 
-1.  Consistent Hashing:
-1. It is a distributed hashing scheme that operates independently the servers and the objects in a distributed hash circle or hash ring.
-2. It allows servers and objects to scale without affecting the overall system.
+        1.  Consistent Hashing:
+                1. It is a distributed hashing scheme that operates independently the servers and the objects in a distributed hash circle or hash ring.
+                2. It allows servers and objects to scale without affecting the overall system.
 
-2.  Differential Bundling: 
-1.      It supports the older browsers.
-2.      Provides code compatibility with the older version of browsers for our application.
-3.       We add the required versions of the Chrome, Firefox or other browsers under the browserslist in package.json file to make it happen.
-4.      Parcel automatically produces:
+        2.  Differential Bundling: 
+                1.      It supports the older browsers.
+                2.      Provides code compatibility with the older version of browsers for our application.
+                3.       We add the required versions of the Chrome, Firefox or other browsers under the browserslist in package.json file to make it happen.
+                4.      Parcel automatically produces:
 
-        <script type="module"> with modern JavaScript syntax & 
-        <script nomodule> fallback syntax for the older browsers.
+                        <script type="module"> with modern JavaScript syntax & 
+                        <script nomodule> fallback syntax for the older browsers.
 
-3.  Tree Shaking:
-1.      It statically analyses the imports and exports for all the modules and removes everything that is not necessary.
-2.      Even it checks for the css files and removes the unwanted class names before minifying the code.
+        3.  Tree Shaking:
+                1.      It statically analyses the imports and exports for all the modules and removes everything that is not necessary.
+                2.      Even it checks for the css files and removes the unwanted class names before minifying the code.
 
 # What is .gitignore ? what should we add and not add into it ?
 
