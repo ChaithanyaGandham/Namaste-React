@@ -100,11 +100,11 @@ Parcel Super Powers:
 # What is .gitignore ? what should we add and not add into it ?
 
 .gitigore : 
-    a.  It is the file we can create in our application whenever we need to avoid some files or folders that are not required to push to the cloud  or git repositories.
-    b.  The path of the files which are placed inside this file are ignored and does not gets added in the list of modified files before making a commit to the git.
-    c.  Node-modules folder that is generated when we install the parcel package does not requires to be pushed into the git since if there is package.json and package-lock.json files,    then we can re generate the node-modules folder. Hence we can add node-modules to the gitignore file.
-    d.  package.json and package-lock.json files are necessary to be moved to the repository since without which we may not install the require code dependency folders or files in the prod environment.
-    e.  .parcel-cache and  dist folder that are created when we execute the commands for the dev and production deployment.
+    1.  It is the file we can create in our application whenever we need to avoid some files or folders that are not required to push to the cloud  or git repositories.
+    2.  The path of the files which are placed inside this file are ignored and does not gets added in the list of modified files before making a commit to the git.
+    3.  Node-modules folder that is generated when we install the parcel package does not requires to be pushed into the git since if there is package.json and package-lock.json files,    then we can re generate the node-modules folder. Hence we can add node-modules to the gitignore file.
+    4.  package.json and package-lock.json files are necessary to be moved to the repository since without which we may not install the require code dependency folders or files in the prod environment.
+    5.  .parcel-cache and  dist folder that are created when we execute the commands for the dev and production deployment.
 
             npx parcel index.html  (Dev Build)
 
