@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import logo from './assets/logo.jpg';
-import biryani from './assets/biryani.jpg';
 
 const Header = () => {
   return (
