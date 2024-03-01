@@ -2,6 +2,7 @@ import RestaurentCard from "./RestaurentCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { HOME_URL } from "../utils/constants";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -9,6 +10,8 @@ const Body = () => {
   const [textValue, setTextValue] = useState("");
 
   const [filteredList, setFilteredList] = useState([]);
+
+  const onlineStatus = useOnlineStatus();
 
   useEffect(() => {
     fetchData();
@@ -39,6 +42,14 @@ const Body = () => {
     );
     setFilteredList(filteredList);
   };
+
+  if (onlineStatus === false)
+    return (
+      <h1>
+        Looks like your internet connection is not up. Please check your
+        connection !!
+      </h1>
+    );
 
   return listOfRestaurants?.length === 0 ? (
     <Shimmer />
